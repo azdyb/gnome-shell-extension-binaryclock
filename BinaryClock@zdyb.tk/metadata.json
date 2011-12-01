@@ -1,5 +1,5 @@
 {
-  "shell-version": ["3.0.2"],
+  "shell-version": ["3.2"],
   "uuid": "BinaryClock@zdyb.tk",
   "name": "Binary Clock",
   "description": "Shows a binary clock on panel instead of the default one"

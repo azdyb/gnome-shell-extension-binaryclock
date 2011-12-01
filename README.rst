@@ -10,10 +10,10 @@ What it looks like?
 
 Everybody loves screenshots, right?
 
-.. image:: http://img191.imageshack.us/img191/1846/binaryclock.png
+.. image:: http://img687.imageshack.us/img687/1846/binaryclock.png
   :alt: BinaryClock
 
-.. image:: http://img5.imageshack.us/img5/5193/binaryclockmenu.png
+.. image:: http://img805.imageshack.us/img805/5193/binaryclockmenu.png
   :alt: BinaryClock (menu)
 
 
@@ -40,6 +40,9 @@ or::
 
   $ cp BinaryClock\@zdyb.tk ~/.local/share/gnome-shell/extensions/
 
+Please do not forget to enable the newly installed extension using for example gnome-tweak-tool_.
+
+.. _gnome-tweak-tool: http://live.gnome.org/GnomeTweakTool
 
 License
 =======
