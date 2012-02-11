@@ -28,7 +28,7 @@ Some of the sources are mentioned below:
 * `gnome-shell-extensions <http://git.gnome.org/browse/gnome-shell-extensions/>`_
 
 
-Instalation
+Installation
 ===========
   
 The BinaryClock@zdyb.tk directory should be copied to
