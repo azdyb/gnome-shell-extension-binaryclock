@@ -136,14 +136,6 @@ BinaryClock.prototype = {
         this.date_menu.actor.add_style_class_name("binary-clock");
         
         this.binary_clock.queue_repaint();
-        
-        let children = this.date_menu.menu.box.get_children();
-        for each(let c in children) {
-            if(c.name == "calendarArea") {
-                c.get_children()[0].insert_actor(this.time_label, 0);
-                break;
-            }
-        }
         this.Run();
     },
     
@@ -152,14 +144,6 @@ BinaryClock.prototype = {
         this.date_menu.actor.remove_style_class_name("binary-clock");
         this.date_menu.actor.remove_actor(this.binary_clock);
         this.date_menu.actor.add_actor(this.orig_clock);
-        
-        let children = this.date_menu.menu.box.get_children();
-        for each(let c in children) {
-            if(c.name == "calendarArea") {
-                c.get_children()[0].remove_actor(this.time_label);
-                break;
-            }
-        }
     }
 }
 
